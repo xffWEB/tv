@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #333;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.header .list {
+  width: 85%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.header .list ul {
+  width: 600px;
+  display: flex;
+}
+
+.header .list ul li {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  line-height: 50px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.header .list ul li.ac {
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+
+.header span {
+  width: 15%;
+  height: 100%;
+  background: #fff;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.main {
+  width: 100%;
+  flex-grow: 1;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.main .nav {
+  width: 92%;
+  margin: 0 auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.main .nav .sear {
+  width: 60%;
+  height: 30px;
+  border: none;
+  border: 1px solid #ccc;
+  background: #eee;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.main .nav span {
+  width: 10%;
+  margin-left: 3%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.main .nav span i.icon {
+  font-size: 30px;
+}
+
+.main .banner {
+  width: 100%;
+  height: 259px;
+  overflow: hidden;
+  display: flex;
+}
+
+.main .banner .uli {
+  width: 100%;
+  height: 259px;
+}
+
+.main .banner .uli div img {
+  width: 100%;
+}
+
+.main .zhong {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  text-indent: 2em;
+  border-top: 1px solid #eee;
+  margin-top: 10px;
+}
+
+.main .more {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main .more li {
+  width: 50%;
+  margin-top: 10px;
+}
+
+.main .more li dl {
+  width: 100%;
+}
+
+.main .more li dl dt img {
+  width: 100%;
+}
+
+.main .more li dl dd span {
+  color: #333;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bolder;
+  display: block;
+}
+
+.main .more li dl dd p {
+  color: #666;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  flex-shrink: 0;
+  display: flex;
+}
+
+.footer dl {
+  width: 20%;
+  text-align: center;
+}
+
+.footer dl dt i.icon {
+  font-size: 24px;
+}
+
+.footer dl dd {
+  line-height: 20px;
+}
+
+.footer dl.ac {
+  color: orangered;
+}
+/*# sourceMappingURL=style.css.map */

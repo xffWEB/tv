@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <meta http - equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="list">
+                <ul>
+                    <li class="ac">精选</li>
+                    <li>爱看</li>
+                    <li>综艺</li>
+                    <li>报销</li>
+                    <li>电影</li>
+                    <li>电视剧</li>
+                    <li>少儿</li>
+                    <li>军事</li>
+                    <li>农业</li>
+                    <li>催泪</li>
+                </ul>
+
+            </div>
+            <span><i class="icon iconfont icon-gengduo-2"></i></span>
+        </header>
+        <main class="main">
+            <div class="nav">
+                <input type="text" name="" class="sear" placeholder="南方有乔木">
+                <span><i class="icon iconfont icon-eyeopen"></i></span>
+                <span><i class="icon iconfont icon-eyeopen"></i></span>
+                <span><i class="icon iconfont icon-eyeopen"></i></span>
+            </div>
+            <div class="swiper-container banner">
+                <div class="swiper-wrapper uli">
+                    <div class="swiper-slide"><img src="1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="1.jpg" alt=""></div>
+                </div>
+            </div>
+            <h3 class="zhong">
+                重磅来袭
+            </h3>
+            <ul class="more">
+                <li>
+                    <dl>
+                        <dt>
+                            <img src="1.jpg" alt="">
+                        </dt>
+                        <dd>
+                            <span>南方有乔木</span>
+                            <p>南乔or方木？陈伟霆难抉择</p>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>
+                                <img src="1.jpg" alt="">
+                            </dt>
+                        <dd>
+                            <span>南方有乔木</span>
+                            <p>南乔or方木？陈伟霆难抉择</p>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>
+                                    <img src="1.jpg" alt="">
+                                </dt>
+                        <dd>
+                            <span>南方有乔木</span>
+                            <p>南乔or方木？陈伟霆难抉择</p>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>
+                                        <img src="1.jpg" alt="">
+                                    </dt>
+                        <dd>
+                            <span>南方有乔木</span>
+                            <p>南乔or方木？陈伟霆难抉择</p>
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+        </main>
+        <footer class="footer">
+            <dl class="ac">
+                <dt><i class="icon iconfont icon-shoucang1"></i></dt>
+                <dd>首页</dd>
+            </dl>
+            <dl>
+                <dt><i class="icon iconfont icon-shoucang1"></i></dt>
+                <dd>首页</dd>
+            </dl>
+            <dl>
+                <dt><i class="icon iconfont icon-shoucang1"></i></dt>
+                <dd>首页</dd>
+            </dl>
+            <dl>
+                <dt><i class="icon iconfont icon-shoucang1"></i></dt>
+                <dd>首页</dd>
+            </dl>
+            <dl>
+                <dt><i class="icon iconfont icon-shoucang1"></i></dt>
+                <dd>首页</dd>
+            </dl>
+        </footer>
+    </div>
+    <script src="js/swiper-3.4.2.min.js"></script>
+    <script src="js/zepto.js"></script>
+    <script src="js/iscroll.js"></script>
+
+    <script>
+        new Swiper('.swiper-container', {
+            autoplay: 5000, //可选选项，自动滑动
+            loop: true
+        });
+        new IScroll('.list', {
+            scrollY: false,
+            scrollX: true
+        });
+    </script>
+</body>
+
+</html>
